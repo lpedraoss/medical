@@ -1,3 +1,5 @@
+
+/* Card diseñada para la presentación del doctor */
 #card-doctor {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -59,3 +61,12 @@
   display: inline-block;
   margin-top: 1rem;
   }
+
+ /*Para definir una grilla como contenedora del resto de cards, se crea el siguiente
+   estilo*/
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+  

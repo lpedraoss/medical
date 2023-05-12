@@ -1,0 +1,25 @@
+#search-form {
+  position: absolute;
+  top: 30;
+  left: 0;
+}
+  
+  #search-form label {
+    margin-right: 1rem;
+  }
+  
+  #search-form input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  #search-form button[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
