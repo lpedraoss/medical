@@ -1,0 +1,26 @@
+    Botones:
+        Color principal: #0072c6
+        Color de fondo del botón cuando se le da hover: #005da5
+
+    Cards:
+        Color principal: #ffffff
+        Color del borde de la tarjeta: #cccccc
+
+    Fondo de página:
+        Color principal: #d5e7f2
+
+    Header:
+        Color principal del fondo: #0072c6
+        Color de texto: #ffffff
+
+    Footer:
+        Color principal del fondo: #333333
+        Color de texto: #ffffff
+    
+    Fondo de página:
+        Color principal: #d1e0e8
+        Color secundario: #c1d4e7
+    
+    Fondo del body:
+        Color principal: #f2f7fa
+        Color del texto: #333333
