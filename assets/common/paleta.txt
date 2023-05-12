@@ -3,6 +3,7 @@
         Color de fondo del botón cuando se le da hover: #005da5
 
     Cards:
+        color principal de fondo: #cbd1d8
         Color principal: #ffffff
         Color del borde de la tarjeta: #cccccc
 
