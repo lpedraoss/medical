@@ -1,0 +1,96 @@
+#header-login{
+    text-align: center;
+}
+
+#login-form {
+    display: grid;
+    place-items: center;
+  }
+  #username {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  #password {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  #label-password{
+    font-size: xx-large;
+  }
+  #label-username{
+    font-size: xx-large;
+  }
+  /*------------img-----------*/
+#picture-login{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    
+  }
+ #picture-login img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+ }     
+#fieldset-login {
+    border-radius: 22px;
+    border:none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 1rem;
+    place-items: center;
+    text-align: center;
+    background-color: #66BB6A;
+  }
+  #card-login {
+    border-radius: 22px;
+    border:none;
+    width: 600px;
+
+    background-color: #8BC34A;
+  }
+
+
+  #button-login {
+    /*margin-top: 1rem;*/
+
+    display:block;
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
+
+    font-size: 1rem;
+    background-color: #0072c6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #main-login{
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    display: grid;
+  }
+  #body-login{
+    background-image: url('/assets/img/png/song.png');
+    background-repeat: no-repeat;
+    border-top: 1rem solid #0072c6;
+  }
