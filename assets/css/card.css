@@ -1,6 +1,6 @@
 
 /* Card diseñada para la presentación del doctor */
-#card-doctor {
+.card-doctor {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
@@ -15,46 +15,42 @@
  
   }
   
-  #card-doctor-picture {
+  .card-doctor picture {
   display: block;
   margin: auto;
   }
   
-  #card-doctor-image {
-  display: block;
-  margin: auto;
-  }
   
-  #card-doctor-title {
+  .card-doctor h2 {
   margin-top: 1rem;
   font-size: 2rem;
+  margin: 0;
+
   }
   
-  #card-doctor-list {
+  .card-doctor ul {
   margin-top: 1rem;
   font-size: 1.2rem;
   }
   
-  #card-doctor-button:hover {
+  .card-doctor-button:hover {
   background-color: #005da5;
   }
   
-  #card-doctor-image {
+  .card-doctor img {
   width: 100%;
+  margin:auto;
   display: block;
   border-radius: 0.5rem;
   }
   
-  #card-doctor-title {
-  margin: 0;
-  font-size: 1.5rem;
-  }
+
   
-  #card-doctor-list-item {
+  .card-doctor ul li{
   margin-bottom: 0.5rem;
   }
   
-  #card-doctor-button {
+  .card-doctor a{
   text-decoration: none;
   background-color: #0072c6;
   color: #fff;
@@ -68,9 +64,9 @@
    estilo*/
 
   #card-container {
-    max-width: 850px; /* ajusta este valor según tus necesidades */
+    max-width: 850px; 
     max-height: auto;
-    margin: 0 auto; /* margen automático a los lados */
+    margin: 0 auto; 
     display: grid;
     grid-template-columns: repeat(4, minmax(250px, 1fr)); /* ajusta el ancho mínimo y máximo de las tarjetas */
     grid-gap: 1rem;
