@@ -59,13 +59,7 @@
     text-align: center;
     background-color: #66BB6A;
   }
-  #card-login {
-    border-radius: 22px;
-    border:none;
-    width: 600px;
 
-    background-color: #8BC34A;
-  }
 
 
   #button-login {
@@ -89,8 +83,31 @@
     text-align: center;
     display: grid;
   }
-  #body-login{
-    background-image: url('/assets/img/png/song.png');
-    background-repeat: no-repeat;
-    border-top: 1rem solid #0072c6;
+
+  /*Pantalla minima*/
+  @media screen and (max-width: 412px){
+
+  #card-login {
+    border-radius: 22px;
+    border:none;
+    width: fit-content;
+    height: 700px;
+
+    background-color: #8BC34A;
+  }
+  }
+/*Pantalla principal*/
+  @media screen  and (min-width: 413px){
+    #card-login {
+      border-radius: 22px;
+      border:none;
+      width: 600px;
+      height: 750px;
+      background-color: #8BC34A;
+    }
+    #body-login{
+      background-image: url('/assets/img/png/song.png');
+      background-repeat: no-repeat;
+      border-top: 1rem solid #0072c6;
+    }
   }
