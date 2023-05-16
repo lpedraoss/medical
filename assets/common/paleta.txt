@@ -2,7 +2,7 @@
         Color principal: #0072c6
         Color de fondo del botón cuando se le da hover: Color de fondo del botón cuando se le da hover: #005da5
         Color principal 2: #4CAF50;
-        Color de fondo del botón cuando se le da hover: #388E3C
+        Color de fondo del botón cuando se le da hover: #388E3C;
     Cards:
         color principal de fondo: #cbd1d8
         Color principal: #ffffff
