@@ -86,10 +86,8 @@ object-fit: contain;
 #patient a:hover {
   background-color: #388E3C;
   }
-/*screen  */
-
-/*screen minimun*/
-@media screen and (max-width: 412px)  {
+/*screen minimun  */
+@media screen and (max-width: 600px) {
   #patient{
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.6);
     width: 80%;
@@ -120,6 +118,66 @@ object-fit: contain;
   p{
     font-size:1.2rem;
   }
+
+  footer{
+    display: inline-flex;
+    position:absolute fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+
+  }
+  #description-doctor-search{
+    width: 90%;
+    display: inline-block;
+  }
+  #icon{
+    font-size: 1.5rem;
+  }  
+}
+/*screen mediana*/
+@media screen and (max-width: 900px) and (min-width:601px)  {
+  #patient{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.6);
+    width: 90%;
+
+    margin: 0 auto; /* Centra horizontalmente */
+    background-color: #cbd1d8;
+    border-radius: 40px;
+    padding: 20px;
+    color: #333333;
+  }
+  #patient picture{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+  }
+  
+  /*----------body------------*/
+  #body-doctor-search{
+    background-color: #c1d4e7;
+  }
+
+  #picture-principal {
+    width: 60%;
+  }
+  h2{
+    font-size: 1.3rem;
+  }
+  p{
+    font-size:1.2rem;
+  }
+
+  footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+  }
   #description-doctor-search{
     width: 90%;
     display: inline-block;
@@ -130,7 +188,7 @@ object-fit: contain;
 }
   
 /*principal screen*/
-@media screen  and (min-width: 413px){
+@media screen  and (min-width: 901px){
   #patient{
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.6);
     width: 60%;
@@ -155,6 +213,14 @@ object-fit: contain;
   }
   p{
     font-size: 1.5rem;
+  }
+  footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
   }
     /*----------body------------*/
   #body-doctor-search{

@@ -17,17 +17,6 @@ body {
     
   }
 
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333333;
-    color: #ffffff;
-    text-align: center;
-  
-  }
-
-
 nav ul {
     margin: 0;
     padding: 0;

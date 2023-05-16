@@ -83,26 +83,23 @@
     text-align: center;
     display: grid;
   }
-
   /*Pantalla minima*/
-  @media screen and (max-width: 412px){
+  @media screen and (max-width: 600px){
 
-  #card-login {
-    border-radius: 22px;
-    border:none;
-    width: fit-content;
-    height: 700px;
-
-    background-color: #8BC34A;
-  }
-  }
-/*Pantalla principal*/
-  @media screen  and (min-width: 413px){
     #card-login {
       border-radius: 22px;
       border:none;
-      width: 600px;
-      height: 750px;
+      width: 85%;
+      background-color: #8BC34A;
+    }
+  }
+  /*Pantalla mediana*/
+  @media screen and (max-width: 900px) and (min-width:601px){
+    #card-login {
+      border-radius: 22px;
+      border:none;
+      width: 700px;
+      height: 700px;
       background-color: #8BC34A;
     }
     #body-login{
@@ -111,3 +108,19 @@
       border-top: 1rem solid #0072c6;
     }
   }
+/*Pantalla principal*/
+  @media screen  and (min-width: 901px){
+    #card-login {
+      border-radius: 22px;
+      border:none;
+      width: 700px;
+      height:750px;
+      background-color: #8BC34A;
+    }
+    #body-login{
+      background-image: url('/assets/img/png/song.png');
+      background-repeat: no-repeat;
+      border-top: 1rem solid #0072c6;
+    }
+  }
+  
