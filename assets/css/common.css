@@ -127,7 +127,6 @@ object-fit: contain;
     background-color: #333333;
     color: #ffffff;
     text-align: center;
-
   }
   #description-doctor-search{
     width: 90%;
@@ -171,7 +170,8 @@ object-fit: contain;
   }
 
   footer{
-    position:fixed;
+    display: inline-flex;
+    position:absolute fixed;
     bottom: 0;
     width: 100%;
     background-color: #333333;
