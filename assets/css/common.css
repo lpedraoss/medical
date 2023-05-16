@@ -86,20 +86,22 @@ object-fit: contain;
 #patient a:hover {
   background-color: #388E3C;
   }
+/*screen  */
 
-/*minimun screen*/
-@media screen and (max-width: 412px) {
+/*screen minimun*/
+@media screen and (max-width: 412px)  {
   #patient{
-    width: 360px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.6);
+    width: 80%;
 
     margin: 0 auto; /* Centra horizontalmente */
     background-color: #cbd1d8;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 20px;
     color: #333333;
   }
   #patient picture{
-    width: 300px;
+    width: 80%;
     height: auto;
     display: inline-block;
   }
@@ -110,13 +112,13 @@ object-fit: contain;
   }
 
   #picture-principal {
-    width: 230px;
+    width: 60%;
   }
   h2{
     font-size: 1.3rem;
   }
   p{
-    font-size: 1.2rem;
+    font-size:1.2rem;
   }
   #description-doctor-search{
     width: 90%;
@@ -130,7 +132,8 @@ object-fit: contain;
 /*principal screen*/
 @media screen  and (min-width: 413px){
   #patient{
-    width: 800px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.6);
+    width: 60%;
   
     margin: 0 auto; /* Centra horizontalmente */
     background-color: #cbd1d8;
@@ -139,13 +142,13 @@ object-fit: contain;
     color: #333333;
   }
   #patient picture{
-    width: 400px;
+    width: 30%;
     height: auto;
     display: inline-block;
   }
   
   #picture-principal {
-    width: 500px;
+    width: 30%;
   }
   h2{
     font-size: 1.5rem;
