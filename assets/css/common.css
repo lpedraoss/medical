@@ -215,7 +215,8 @@ object-fit: contain;
     font-size: 1.5rem;
   }
   footer{
-    position:fixed;
+    display: inline-flex;
+    position:absolute fixed;
     bottom: 0;
     width: 100%;
     background-color: #333333;
