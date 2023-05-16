@@ -1,0 +1,31 @@
+    Botones:
+        Color principal: #0072c6
+        Color de fondo del botón cuando se le da hover: Color de fondo del botón cuando se le da hover: #005da5
+        Color principal 2: #4CAF50;
+        Color de fondo del botón cuando se le da hover: #388E3C
+    Cards:
+        color principal de fondo: #cbd1d8
+        Color principal: #ffffff
+        Color del borde de la tarjeta: #cccccc
+    
+    Fondo de página:
+        Color principal: #d5e7f2
+
+    Header:
+        Color principal del fondo: #0072c6
+        Color de texto: #ffffff
+
+    Footer:
+        Color principal del fondo: #333333
+        Color de texto: #ffffff
+    
+    Fondo de página:
+        Color principal: #d1e0e8
+        Color secundario: #c1d4e7
+    
+    Fondo del body:
+        Color principal: #f2f7fa
+        Color del texto: #333333
+    
+    Pantalla:
+        minima: => Galaxy Note 20 Ultra Android 11 (412:866)px
