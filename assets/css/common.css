@@ -120,15 +120,16 @@ object-fit: contain;
     font-size:1.2rem;
   }
 
-  footer{
-    display: inline-flex;
-    position:absolute;
+  footer {
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     background-color: #333333;
     color: #ffffff;
     text-align: center;
   }
+  
   #description-doctor-search{
     width: 90%;
     display: inline-block;
@@ -170,15 +171,16 @@ object-fit: contain;
     font-size:1.2rem;
   }
 
-  footer{
-    display: inline-flex;
-    position:absolute;
+  footer {
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     background-color: #333333;
     color: #ffffff;
     text-align: center;
   }
+  
   #description-doctor-search{
     width: 90%;
     display: inline-block;
@@ -215,15 +217,16 @@ object-fit: contain;
   p{
     font-size: 1.5rem;
   }
-  footer{
-    display: inline-flex;
-    position:absolute;
+  footer {
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     background-color: #333333;
     color: #ffffff;
     text-align: center;
   }
+  
     /*----------body------------*/
   #body-doctor-search{
     background-image: url("/assets/img/png/card-doctor.png");
