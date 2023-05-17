@@ -7,14 +7,28 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #f2f7fa;
     color: #333333;
-    min-height: calc(100vh - (2rem + 1px + 4rem));
+    
 }
 
 header {
+    position:sticky;
+    top: 0;
     background-color: #0072c6;
     color: #fff;
     padding: 1rem;
+    z-index: 9999;
 }
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  z-index: 9999; /* Asegura que el footer esté por encima del contenido */
+}
+
 
 nav ul {
     margin: 0;
