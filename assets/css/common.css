@@ -121,7 +121,7 @@ object-fit: contain;
   }
 
   footer{
-    display: inline-flex;
+ 
     position:absolute;
     bottom: 0;
     width: 100%;
@@ -171,7 +171,6 @@ object-fit: contain;
   }
 
   footer{
-    display: inline-flex;
     position:absolute;
     bottom: 0;
     width: 100%;
@@ -216,7 +215,7 @@ object-fit: contain;
     font-size: 1.5rem;
   }
   footer{
-    display: inline-flex;
+
     position:absolute;
     bottom: 0;
     width: 100%;
