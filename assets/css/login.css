@@ -6,8 +6,9 @@
     display: grid;
     place-items: center;
   }
-  #login-init{
+  .login-text{
     font-size: xx-large;
+    color: #e1f0ff;
   }
   #username {
     display: block;
@@ -34,12 +35,6 @@
     margin-bottom: 20px;
   }
 
-  #label-password{
-    font-size: xx-large;
-  }
-  #label-username{
-    font-size: xx-large;
-  }
   /*------------img-----------*/
 #picture-login{
     width: 400px;

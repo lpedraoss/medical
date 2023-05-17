@@ -10,19 +10,17 @@
   <body id="body-login" >
     <main id="main-login">
       <section id="card-login">
-          
           <picture id="picture-login">
               <img src="/assets/img/png/login-music.png" alt="login"  >
           </picture>
-          <h2 id="login-init">Iniciar sesión</h2>
+          <h2 class="login-text">Iniciar sesión</h2>
           <form id="login-form">
               <fieldset id="fieldset-login">
-                <label for="username" id="label-username">Usuario</label>
+                <label class="login-text" for="username" id="label-username">Usuario</label>
                 <input type="text" id="username" name="username" required>
-                <label for="password" id="label-password">Contraseña</label>
+                <label class="login-text" for="password" id="label-password">Contraseña</label>
                 <input type="password" id="password" name="password" required>
-
-                <button id="button-login" formaction="/templates/main.html"  class="fas fa-user" type="submit"> login</button>
+                <button class="login-text" id="button-login" formaction="/templates/main.html"  class="fas fa-user" type="submit"> login</button>
               </fieldset>
           </form>
       </section>
