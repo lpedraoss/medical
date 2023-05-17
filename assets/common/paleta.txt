@@ -29,3 +29,10 @@
     
     Pantalla:
         minima: => Galaxy Note 20 Ultra Android 11 (412:866)px
+    
+    COLORES ESTANDAR:
+    #4da9e5 
+    #80c9ff: Es un tono más claro y suave del color azul.
+    #a6d6ff: Es un tono azul claro y refrescante.
+    #c2e2ff: Es un tono azul muy claro y suave.
+    #e1f0ff: Es un tono azul pálido y delicado.

@@ -6,6 +6,9 @@
     display: grid;
     place-items: center;
   }
+  #login-init{
+    font-size: xx-large;
+  }
   #username {
     display: block;
     margin: 0 auto;
@@ -30,6 +33,7 @@
     box-sizing: border-box;
     margin-bottom: 20px;
   }
+
   #label-password{
     font-size: xx-large;
   }
@@ -41,7 +45,6 @@
     width: 400px;
     height: 300px;
     display: inline-block;
-    
   }
  #picture-login img{
   width: 100%;
@@ -57,19 +60,17 @@
     grid-gap: 1rem;
     place-items: center;
     text-align: center;
-    background-color: #66BB6A;
+    background-color: #4da9e5;
   }
 
 
 
   #button-login {
     /*margin-top: 1rem;*/
-
     display:block;
     margin: 20px auto;
     width: 80%;
     padding: 10px;
-
     font-size: 1rem;
     background-color: #0072c6;
     color: white;
@@ -90,7 +91,7 @@
       border-radius: 22px;
       border:none;
       width: 85%;
-      background-color: #8BC34A;
+      background-color: #80c9ff;
     }
   }
   /*Pantalla mediana*/
@@ -100,7 +101,7 @@
       border:none;
       width: 700px;
       height: 700px;
-      background-color: #8BC34A;
+      background-color: #80c9ff;
     }
     #body-login{
       background-image: url('/assets/img/png/song.png');
@@ -115,10 +116,10 @@
       border:none;
       width: 700px;
       height:750px;
-      background-color: #8BC34A;
+      background-color: #80c9ff;
     }
     #body-login{
-      background-image: url('/assets/img/png/song.png');
+      background-image: url('/assets/img/webp/fondo.webp');
       background-repeat: no-repeat;
       border-top: 1rem solid #0072c6;
     }
