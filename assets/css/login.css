@@ -90,6 +90,7 @@
       border:none;
       width: 85%;
       background-color: #80c9ff;
+      box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.6);
     }
   }
   /*Pantalla mediana*/
