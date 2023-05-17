@@ -9,17 +9,10 @@
   </head>
   <body id="body-doctor-search">
     <header>
-      <nav>
-        <a href="/">
-          <i id="icon" class="fas fa-sign-out-alt" ></i>
-        </a>
-        <a href="/templates/services.html">
-            <i id="icon" class="fas fa-arrow-left"></i>
-        </a>
-        <a href="/templates/main.html">
-          <i id="icon" class="fas fa-home">Inicio</i>
-        </a>
-
+      <nav id="icon">
+        <a href="/"  class="fas fa-sign-out-alt"></a>
+        <a href="/templates/services.html"  class="fas fa-arrow-left"></a>
+        <a href="/templates/main.html"  class="fas fa-home">Inicio</a>
       </nav>
     </header>
     <main id="main-patient">
@@ -27,17 +20,31 @@
             <picture>
               <img  src="/assets/img/png/paciente.png" alt="Imagen de la clínica">
             </picture>
-            <h1 >Historial Clinico</h1>
+            <h3 >Historial Clinico</h3>
             <h3>Paciente: Luis Suarez</h3>
-            <h4>C.C. 123564564789</h4>
-          <!--debe ser un formulario-->            
-          <ul>
-              <li ><input type="checkbox" id="check1"><label for="check1">Consulta médica</label></li>
-              <li ><input type="checkbox" id="check2"><label for="check2">Examen laboratorio</label></li>
-              <li ><input type="checkbox" id="check3"><label for="check3">Cirujia</label></li>
-              <li ><input type="checkbox" id="check4"><label for="check4">Rehabilitación</label></li>
+            <h3>C.C. 123564564789</h3>
+          <form>
+            <ul>
+              <li >
+                <input type="checkbox" id="check1">
+                <label for="check1">Consulta médica</label>
+              </li>
+              <li >
+                <input type="checkbox" id="check2">
+                <label for="check2">Examen laboratorio</label>
+              </li>
+              <li >
+                <input type="checkbox" id="check3">
+                <label for="check3">Cirujia</label>
+              </li>
+              <li >
+                <input type="checkbox" id="check4">
+                <label for="check4">Rehabilitación</label>
+              </li>
             </ul>
-            <a>Realizar consulta</a>
+            <button>Realizar consulta</button>
+          </form>            
+
           </section>
     </main>
   </body>

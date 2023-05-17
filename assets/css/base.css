@@ -3,19 +3,18 @@
   font-family: 'Times New Roman', Times, serif;
 }
 body {
-    margin: 0;
+    margin:auto;
     font-family: 'Times New Roman', Times, serif;
     background-color: #f2f7fa;
     color: #333333;
-    
-  }
+}
 
- header {
+header {
     background-color: #0072c6;
     color: #fff;
     padding: 1rem;
     
-  }
+}
 
 nav ul {
     margin: 0;
@@ -23,38 +22,36 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-  }
+}
   
 nav li {
     margin: 0 1rem;
-  }
+}
   
 nav a {
     color: #fff;
     text-decoration: none;
     display: inline-flex;
-    max-width: 400;
     margin: 0 1rem;
-  }
+}
 
 main {
-    max-width:auto;
+    max-width: none; 
     margin: 2rem auto;
     text-align: center;
-  }
+}
   
-  h1 {
+h1 {
     font-size: 3rem;
-  }
+}
 
-  
-  ul {
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
+}
  
- article{
+article{
     width: auto;
     height: auto;
 }

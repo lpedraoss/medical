@@ -5,8 +5,8 @@
 
 
   #card-container {
-    max-width: auto; 
-    max-height: auto;
+    max-width: none; 
+    max-height: none;
     margin: 0 auto; 
     display: grid;
     grid-template-columns: repeat(1, minmax(auto, 1fr)); 
@@ -27,7 +27,6 @@
     estilo*/
     #card-container {
       max-width: 80%; 
-      max-height: auto;
       margin: 0 auto; 
       display: grid;
       grid-template-columns: repeat(2, minmax(250px, 1fr)); /* ajusta el ancho mínimo y máximo de las tarjetas */
@@ -42,7 +41,7 @@
     estilo*/
     #card-container {
       max-width: 52%; 
-      max-height: auto;
+
       margin: 0 auto; 
       display: grid;
       grid-template-columns: repeat(4, minmax(250px, 1fr)); /* ajusta el ancho mínimo y máximo de las tarjetas */
