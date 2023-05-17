@@ -9,6 +9,7 @@
   .login-text{
     font-size: xx-large;
     color: #e1f0ff;
+    
   }
   #username {
     display: block;
@@ -56,6 +57,7 @@
     place-items: center;
     text-align: center;
     background-color: #4da9e5;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.6);
   }
 
 
@@ -72,6 +74,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.6);
   }
   #main-login{
     justify-content: center;
@@ -93,6 +96,7 @@
   @media screen and (max-width: 900px) and (min-width:601px){
     #card-login {
       border-radius: 22px;
+      box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.6);
       border:none;
       width: 700px;
       height: 700px;
@@ -108,6 +112,7 @@
   @media screen  and (min-width: 901px){
     #card-login {
       border-radius: 22px;
+      box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.6);
       border:none;
       width: 700px;
       height:750px;
