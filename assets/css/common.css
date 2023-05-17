@@ -172,7 +172,7 @@ object-fit: contain;
 
   footer{
     display: inline-flex;
-    position:absolute fixed;
+    position:absolute;
     bottom: 0;
     width: 100%;
     background-color: #333333;
@@ -217,7 +217,7 @@ object-fit: contain;
   }
   footer{
     display: inline-flex;
-    position:absolute fixed;
+    position:absolute;
     bottom: 0;
     width: 100%;
     background-color: #333333;

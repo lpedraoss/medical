@@ -3,7 +3,7 @@
   font-family: 'Times New Roman', Times, serif;
 }
 body {
-    margin: auto;
+    margin: 0%;
     font-family: 'Times New Roman', Times, serif;
     background-color: #f2f7fa;
     color: #333333;
@@ -13,7 +13,6 @@ header {
     background-color: #0072c6;
     color: #fff;
     padding: 1rem;
-    
 }
 
 nav ul {
