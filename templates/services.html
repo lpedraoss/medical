@@ -20,23 +20,25 @@
     </header>
     <main >
       <section id="description-doctor-search">
-        <h1>Seguimiento de pacientes</h1>
+        <h2>Seguimiento de pacientes</h2>
         <p>
           En esta sección, podrás consultar toda la información relevante sobre tus pacientes.
           Podrás revisar sus datos personales, historial médico, y fechas de próximas citas. 
           ¡Así podrás estar siempre preparado y brindarles la mejor atención posible!
         </p>
       </section>
+
+      <form id="search-form">
+        <input type="text" id="doctor-name" name="doctor-name" required>
+        <button type="submit">Buscar</button>
+      </form>
       <ul id="card-container">
-        <form id="search-form">
-          <input type="text" id="doctor-name" name="doctor-name" required>
-          <button type="submit">Buscar</button>
-        </form>
+
         <li class="card-doctor">
           <picture>
             <img  src="/assets/img/png/paciente.png" alt="Imagen de la clínica">
           </picture>
-          <h2 >Luis Suarez</h2>
+          <h3 >Luis Suarez</h3>
           <ul>
             <li >Consulta médica</li>
             <li >Exámenes de laboratorio</li>
@@ -50,7 +52,7 @@
           <picture>
             <img  src="/assets/img/png/paciente2.png" alt="Imagen de la clínica">
           </picture>
-          <h2 >Maria Ramirez</h2>
+          <h3 >Maria Ramirez</h3>
           <ul>
             <li >Consulta médica</li>
             <li >Exámenes de laboratorio</li>
@@ -63,7 +65,7 @@
           <picture>
             <img  src="/assets/img/png/paciente3.png" alt="Imagen de la clínica">
           </picture>
-          <h2 >Juan Fernadez</h2>
+          <h3 >Juan Fernadez</h3>
           <ul>
             <li >Consulta médica</li>
             <li >Exámenes de laboratorio</li>
@@ -89,7 +91,7 @@
           <picture>
             <img  src="/assets/img/jpg/plaga.jpg" alt="Imagen de la clínica">
           </picture>
-          <h2 >Pedro Ignacio</h2>
+          <h3 >Pedro Ignacio</h3>
           <ul>
             <li >Consulta médica</li>
             <li >Exámenes de laboratorio</li>
